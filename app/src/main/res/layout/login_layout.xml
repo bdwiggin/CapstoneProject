@@ -82,10 +82,9 @@
         android:textColor="#3399ff" />
 
     <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
         android:layout_marginTop="65dp"
         android:id="@+id/infinityImage"
-        android:layout_gravity="center_horizontal|top"
-        android:src="@drawable/infinity2" />
+        android:layout_gravity="center_horizontal|top" />
 </FrameLayout>

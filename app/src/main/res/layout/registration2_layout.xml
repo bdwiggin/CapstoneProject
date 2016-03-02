@@ -128,6 +128,18 @@
         android:textStyle="bold"
         />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="View Home"
+        android:id="@+id/textViewMain"
+        android:onClick="onButtonClick"
+        android:layout_gravity="right|bottom"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="100dp"
+        android:textColor="#3399ff" />
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="90dp"

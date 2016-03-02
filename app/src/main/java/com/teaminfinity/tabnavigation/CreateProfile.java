@@ -1,6 +1,7 @@
 package com.teaminfinity.tabnavigation;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -27,6 +28,14 @@ public class CreateProfile  extends Activity {
         et_weight = (EditText)findViewById(R.id.editTextRWeight);
         et_username = (EditText)findViewById(R.id.editTextRUsername);
         et_password = (EditText)findViewById(R.id.editTextRPassword);
+    }
+
+    public void onButtonClick(View view) {
+        if (view.getId() == R.id.textViewMain) {
+            Intent i = new Intent(CreateProfile.this, MainActivity.class);
+            startActivity(i);
+
+        }
     }
 
  public void userReg(View view){

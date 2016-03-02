@@ -39,12 +39,12 @@
         android:layout_width="match_parent"
         android:layout_height="90dp"
         android:text="Create Account"
-        android:id="@+id/createAccountLogin"
+
         android:background="#9a9a9a"
         android:layout_gravity="bottom"
         android:textSize="24dp"
         android:textColor="#ffffff"
-        android:onClick="onButtonClick" />
+        android:onClick="userReg" />
 
     <Button
         android:layout_width="119dp"
@@ -75,7 +75,8 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Forgot Password?"
-        android:id="@+id/textView3"
+        android:id="@+id/textViewForgot"
+        android:onClick="onButtonClick"
         android:layout_gravity="right|center_vertical"
         android:layout_marginRight="35dp"
         android:layout_marginTop="40dp"

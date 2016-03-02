@@ -17,9 +17,26 @@ public class LoginLayout  extends Activity {
 
 
     public void onButtonClick(View view) {
-        if (view.getId() == R.id.createAccountLogin) {
-            Intent i = new Intent(LoginLayout.this, CreateProfile.class);
+        if (view.getId() == R.id.textViewForgot) {
+            Intent i = new Intent(LoginLayout.this, ForgotPassword.class);
             startActivity(i);
+
         }
     }
+public void userReg(View view){
+
+    startActivity(new Intent(this,CreateProfile.class));
 }
+
+
+    public void Loginbutton(View view){
+
+
+    }
+
+
+
+    }
+
+
+

@@ -34,7 +34,7 @@ public class BackgroundActivity extends AsyncTask<String,Void,String> {
     @Override
     protected String doInBackground(String... params) {
 
-        String reg_url = "http://10.0.2.2:8080/register.php";
+        String reg_url = "http://10.56.83.22:80/db.soic.indiana.edu/~team50/register.php";
         String login_url = "http://db.soic.indiana.edu/~team50/login.php";
 
 
